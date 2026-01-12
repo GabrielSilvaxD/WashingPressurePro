@@ -1,0 +1,20 @@
+{
+  "name": "washing-pressure-pro",
+  "version": "1.0.0",
+  "description": "Professional washing pressure business website",
+  "scripts": {
+    "install-all": "cd frontend && npm install && cd ../backend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "build-all": "cd frontend && npm run build && cd ../backend && npm run build",
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend && npm start"
+  },
+  "keywords": [
+    "pressure-washing",
+    "react",
+    "typescript",
+    "nodejs"
+  ],
+  "author": "Gabriel Silva",
+  "license": "ISC"
+}
